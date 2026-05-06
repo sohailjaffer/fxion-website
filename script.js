@@ -1,5 +1,5 @@
 /* ========================================
-   FXION LTD — Main JavaScript
+   FXiON LTD — Main JavaScript
    ======================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
