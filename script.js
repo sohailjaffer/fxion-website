@@ -79,6 +79,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // --- Device mockup carousel ---
+  const devices = document.querySelectorAll('.mockup-device');
+  if (devices.length) {
+    let current = 0;
+    setInterval(() => {
+      devices[current].classList.remove('active');
+      current = (current + 1) % devices.length;
+      devices[current].classList.add('active');
+    }, 3000);
+  }
+
   // --- Active nav link ---
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-links a:not(.btn), .nav-mobile-menu a:not(.btn)').forEach(link => {
