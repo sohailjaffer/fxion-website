@@ -1745,6 +1745,51 @@ ul { list-style: none; }
     padding: 32px 20px;
   }
 
+  .services-mockup {
+    min-height: 300px;
+  }
+
+  .services-mockup-inner {
+    transform: none;
+  }
+
+  .services-wrapper:hover .services-mockup-inner {
+    transform: none;
+  }
+
+  .mockup-carousel {
+    width: 100%;
+    max-width: 280px;
+    height: 320px;
+    margin: 0 auto;
+  }
+
+  .mockup-mac-frame,
+  .mockup-win-frame {
+    width: 100%;
+  }
+
+  .mockup-phone-frame,
+  .mockup-android-frame {
+    width: 170px;
+  }
+
+  .mockup-app-screen {
+    min-height: 200px;
+  }
+
+  .mockup-phone-screen {
+    min-height: 260px;
+  }
+
+  .mockup-android-screen {
+    min-height: 260px;
+  }
+
+  .mockup-win-body {
+    min-height: 190px;
+  }
+
   .services-grid {
     grid-template-columns: 1fr;
   }
