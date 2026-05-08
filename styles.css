@@ -502,8 +502,10 @@ ul { list-style: none; }
 
 .mockup-carousel {
   position: relative;
-  width: 380px;
+  width: 100%;
+  max-width: 380px;
   height: 400px;
+  margin: 0 auto;
 }
 
 .mockup-device {
@@ -580,7 +582,8 @@ ul { list-style: none; }
 
 /* ---- macOS ---- */
 .mockup-mac-frame {
-  width: 380px;
+  width: 100%;
+  max-width: 380px;
   background: #1a1a2e;
   border-radius: 12px;
   overflow: hidden;
@@ -816,7 +819,8 @@ ul { list-style: none; }
 
 /* ---- Windows ---- */
 .mockup-win-frame {
-  width: 380px;
+  width: 100%;
+  max-width: 380px;
   background: #1a1a2e;
   border-radius: 10px;
   overflow: hidden;
@@ -1712,17 +1716,6 @@ ul { list-style: none; }
     order: -1;
   }
 
-  .mockup-carousel {
-    width: 100%;
-    max-width: 380px;
-    margin: 0 auto;
-  }
-
-  .mockup-mac-frame,
-  .mockup-win-frame {
-    width: 100%;
-  }
-
   .process-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1746,7 +1739,8 @@ ul { list-style: none; }
   }
 
   .services-mockup {
-    min-height: 300px;
+    min-height: auto;
+    perspective: none;
   }
 
   .services-mockup-inner {
@@ -1758,36 +1752,70 @@ ul { list-style: none; }
   }
 
   .mockup-carousel {
-    width: 100%;
-    max-width: 280px;
-    height: 320px;
-    margin: 0 auto;
-  }
-
-  .mockup-mac-frame,
-  .mockup-win-frame {
-    width: 100%;
+    max-width: 260px;
+    height: 300px;
   }
 
   .mockup-phone-frame,
   .mockup-android-frame {
-    width: 170px;
+    width: 160px;
   }
 
   .mockup-app-screen {
-    min-height: 200px;
+    min-height: 180px;
   }
 
   .mockup-phone-screen {
-    min-height: 260px;
+    min-height: 240px;
   }
 
   .mockup-android-screen {
-    min-height: 260px;
+    min-height: 240px;
   }
 
   .mockup-win-body {
-    min-height: 190px;
+    min-height: 170px;
+  }
+
+  .mockup-mac-bar,
+  .mockup-win-bar {
+    padding: 6px 10px;
+  }
+
+  .mockup-dot {
+    width: 7px;
+    height: 7px;
+  }
+
+  .mockup-sidebar,
+  .mockup-win-sidebar {
+    width: 44px;
+    padding: 8px 6px;
+  }
+
+  .mockup-main,
+  .mockup-win-main {
+    padding: 10px;
+  }
+
+  .mockup-hero-block {
+    height: 40px;
+  }
+
+  .mockup-card-block {
+    height: 32px;
+  }
+
+  .mockup-phone-hero {
+    height: 50px;
+  }
+
+  .mockup-phone-card {
+    height: 32px;
+  }
+
+  .mockup-android-card {
+    height: 36px;
   }
 
   .services-grid {
