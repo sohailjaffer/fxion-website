@@ -1876,6 +1876,10 @@ ul { list-style: none; }
   margin-bottom: 16px;
 }
 
+.legal-content h2:first-of-type {
+  margin-top: 16px;
+}
+
 .legal-content p {
   color: var(--text-secondary);
   line-height: 1.8;
