@@ -111,6 +111,46 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 3000);
   }
 
+  // --- Service modals ---
+  document.querySelectorAll('.service-card[data-modal]').forEach(card => {
+    card.addEventListener('click', () => {
+      const modal = document.getElementById(card.dataset.modal);
+      if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    });
+  });
+
+  document.querySelectorAll('.modal-overlay').forEach(overlay => {
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay || e.target.classList.contains('modal-close')) {
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+  });
+
+  document.querySelectorAll('.modal-close').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const overlay = btn.closest('.modal-overlay');
+      if (overlay) {
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const active = document.querySelector('.modal-overlay.active');
+      if (active) {
+        active.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+  });
+
   // --- Active nav link ---
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-links a:not(.btn), .nav-mobile-menu a:not(.btn)').forEach(link => {

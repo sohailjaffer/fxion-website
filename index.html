@@ -281,29 +281,35 @@
           <h2 class="services-heading">Design & development services that we provide</h2>
           <p class="services-description">Explore our range of software development services designed to go beyond aesthetics. We specialise in crafting purposeful experiences that align with your brand's vision and goals.</p>
           <div class="services-grid">
-            <div class="service-card">
+            <div class="service-card" data-modal="modal-web">
               <h3>Web App Development</h3>
-              <p>We build responsive, scalable web applications using modern frameworks including React, Next.js, Vue, and TypeScript. Every web app we deliver is production-ready with clean architecture, fast load times, accessibility best practices, and SEO optimisation built in from day one. Whether you need a SaaS dashboard, an internal tool, or a customer-facing platform, we engineer web applications that perform at scale and are built to grow with your business.</p>
+              <p>Responsive, scalable web applications built with modern frameworks and clean architecture.</p>
+              <span class="service-card-link">Learn more &rarr;</span>
             </div>
-            <div class="service-card">
+            <div class="service-card" data-modal="modal-mobile">
               <h3>Mobile App Development</h3>
-              <p>We develop cross-platform mobile applications for iOS and Android using Flutter, allowing you to reach both platforms from a single codebase without sacrificing native performance or user experience. From consumer-facing apps to enterprise mobile tools, we handle everything from architecture and design to app store submission and post-launch support. Our mobile apps are built for speed, reliability, and intuitive interaction.</p>
+              <p>Cross-platform and native mobile apps for iOS and Android that users love.</p>
+              <span class="service-card-link">Learn more &rarr;</span>
             </div>
-            <div class="service-card">
+            <div class="service-card" data-modal="modal-ai">
               <h3>AI Product Development</h3>
-              <p>FXiON builds AI-powered products that go beyond hype. We integrate artificial intelligence where it creates genuine value — intelligent search, content generation, predictive analytics, and workflow automation. Our AI engineering capabilities include working with OpenAI, LangChain, vector embeddings, and retrieval-augmented generation (RAG) systems. We help businesses transform raw AI capabilities into polished, production-ready product features.</p>
+              <p>AI-powered platforms, intelligent automation, and machine learning integrations built into real products.</p>
+              <span class="service-card-link">Learn more &rarr;</span>
             </div>
-            <div class="service-card">
+            <div class="service-card" data-modal="modal-mvp">
               <h3>MVP Development</h3>
-              <p>We specialise in helping startups and founders validate their ideas with focused minimum viable products. Our MVP development process takes you from concept to working product in as little as four to eight weeks. We identify the core features that matter most, strip away complexity, and build a lean product that you can test with real users and investors. Speed to market without sacrificing quality is at the heart of what we do.</p>
+              <p>Rapid prototyping and minimum viable products to validate your idea and get to market fast.</p>
+              <span class="service-card-link">Learn more &rarr;</span>
             </div>
-            <div class="service-card">
+            <div class="service-card" data-modal="modal-design">
               <h3>UI/UX Design</h3>
-              <p>Great software starts with great design. Our UI/UX design process covers user research, wireframing, interactive prototyping, and high-fidelity interface design using Figma. We design for conversion, engagement, and usability — creating interfaces that feel intuitive from the first interaction. Every design decision is grounded in user behaviour data and aligned with your business objectives to deliver measurable results.</p>
+              <p>Clean, intuitive interfaces designed for conversion, engagement, and delightful user experiences.</p>
+              <span class="service-card-link">Learn more &rarr;</span>
             </div>
-            <div class="service-card">
+            <div class="service-card" data-modal="modal-automation">
               <h3>Business Automation</h3>
-              <p>We help businesses eliminate manual, repetitive tasks by building custom automation workflows and software integrations. From connecting your CRM to your accounting tools, to building automated reporting dashboards and internal process engines, we design systems that save time, reduce errors, and free your team to focus on higher-value work. Our automation solutions are tailored to your specific operational needs and scale as your business grows.</p>
+              <p>Streamline operations with custom workflows, integrations, and automated processes.</p>
+              <span class="service-card-link">Learn more &rarr;</span>
             </div>
           </div>
         </div>
@@ -791,6 +797,67 @@
       </div>
     </div>
   </footer>
+
+  <!-- ===== Service Modals ===== -->
+  <div class="modal-overlay" id="modal-web">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <h3>Web App Development</h3>
+      <p>We build responsive, scalable web applications using modern frameworks including React, Next.js, Vue, and TypeScript. Every web app we deliver is production-ready with clean architecture, fast load times, accessibility best practices, and SEO optimisation built in from day one.</p>
+      <p>Whether you need a SaaS dashboard, an internal tool, or a customer-facing platform, we engineer web applications that perform at scale and are built to grow with your business. Our development process includes code reviews, automated testing, CI/CD pipelines, and performance monitoring to ensure long-term reliability.</p>
+      <p>We work with cloud platforms like AWS, Vercel, and Supabase to deploy and host your web applications with enterprise-grade infrastructure, ensuring your product is fast, secure, and available around the clock.</p>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-mobile">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <h3>Mobile App Development</h3>
+      <p>We develop cross-platform mobile applications for iOS and Android using Flutter, allowing you to reach both platforms from a single codebase without sacrificing native performance or user experience.</p>
+      <p>From consumer-facing apps to enterprise mobile tools, we handle everything from architecture and design to app store submission and post-launch support. Our mobile apps are built for speed, reliability, and intuitive interaction.</p>
+      <p>We also provide ongoing maintenance, version updates, and feature enhancements to keep your mobile app competitive and aligned with evolving platform guidelines from Apple and Google.</p>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-ai">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <h3>AI Product Development</h3>
+      <p>FXiON builds AI-powered products that go beyond hype. We integrate artificial intelligence where it creates genuine value — intelligent search, content generation, predictive analytics, and workflow automation.</p>
+      <p>Our AI engineering capabilities include working with OpenAI, LangChain, vector embeddings, and retrieval-augmented generation (RAG) systems. We help businesses transform raw AI capabilities into polished, production-ready product features.</p>
+      <p>Whether you want to add conversational AI to your platform, build an AI-powered analytics dashboard, or automate complex decision-making processes, we design and implement AI solutions that are practical, scalable, and measurable.</p>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-mvp">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <h3>MVP Development</h3>
+      <p>We specialise in helping startups and founders validate their ideas with focused minimum viable products. Our MVP development process takes you from concept to working product in as little as four to eight weeks.</p>
+      <p>We identify the core features that matter most, strip away complexity, and build a lean product that you can test with real users and investors. Speed to market without sacrificing quality is at the heart of what we do.</p>
+      <p>After launch, we help you iterate based on real user feedback, gradually expanding your product into a full-featured platform as your business grows and your understanding of the market deepens.</p>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-design">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <h3>UI/UX Design</h3>
+      <p>Great software starts with great design. Our UI/UX design process covers user research, wireframing, interactive prototyping, and high-fidelity interface design using Figma.</p>
+      <p>We design for conversion, engagement, and usability — creating interfaces that feel intuitive from the first interaction. Every design decision is grounded in user behaviour data and aligned with your business objectives to deliver measurable results.</p>
+      <p>Our design deliverables include complete design systems, component libraries, and detailed specifications that make the handoff to development seamless and ensure consistency across your entire product.</p>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-automation">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <h3>Business Automation</h3>
+      <p>We help businesses eliminate manual, repetitive tasks by building custom automation workflows and software integrations. From connecting your CRM to your accounting tools, to building automated reporting dashboards and internal process engines, we design systems that save time and reduce errors.</p>
+      <p>Our automation solutions are tailored to your specific operational needs and scale as your business grows. We free your team to focus on higher-value work by handling the technical complexity of system integration and workflow orchestration.</p>
+      <p>We work with APIs, webhooks, and modern integration platforms to connect your existing tools into a seamless, automated workflow that eliminates data silos and manual handoffs.</p>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
