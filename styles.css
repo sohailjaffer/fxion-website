@@ -492,6 +492,8 @@ ul { list-style: none; }
 }
 
 .services-mockup-inner {
+  width: 100%;
+  max-width: 380px;
   transform: rotateY(-6deg) rotateX(3deg);
   transition: transform 0.5s ease;
 }
@@ -1860,10 +1862,13 @@ ul { list-style: none; }
   .services-mockup {
     min-height: auto;
     perspective: none;
+    width: 100%;
   }
 
   .services-mockup-inner {
     transform: none;
+    max-width: 260px;
+    margin: 0 auto;
   }
 
   .services-wrapper:hover .services-mockup-inner {
