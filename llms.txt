@@ -1,0 +1,63 @@
+# FXiON LTD
+
+> FXiON is a UK-based software development company that helps startups and businesses design, build, and launch digital products including web apps, mobile apps, AI tools, and custom software.
+
+## Company Overview
+
+FXiON LTD is a software development company registered and operating in the United Kingdom. The company specialises in building intelligent digital products for ambitious businesses, with a focus on startups, founders, and growing companies. FXiON offers end-to-end product development services covering design, engineering, and launch support.
+
+## Services
+
+FXiON provides the following core services:
+
+- **Web App Development**: Responsive, scalable web applications built with modern frameworks including React, Next.js, Vue, and TypeScript. FXiON delivers production-ready web platforms with clean architecture, performance optimisation, and SEO best practices.
+- **Mobile App Development**: Cross-platform and native mobile apps for iOS and Android using Flutter. From consumer-facing apps to enterprise tools, FXiON builds mobile experiences that users love.
+- **AI Product Development**: AI-powered platforms, intelligent automation, and machine learning integrations. FXiON works with OpenAI, LangChain, embeddings, and RAG systems to build AI capabilities into real products.
+- **MVP Development**: Rapid prototyping and minimum viable product development to validate business ideas quickly. FXiON helps founders go from concept to working product in weeks, not months.
+- **UI/UX Design**: Clean, intuitive interfaces designed for conversion, engagement, and delightful user experiences. Services include wireframing, prototyping, design systems, and user research using Figma.
+- **Business Automation**: Custom workflows, integrations, and automated processes that streamline operations and reduce manual work.
+
+## Technology Stack
+
+- Frontend: React, Next.js, Vue, TypeScript, Tailwind CSS
+- Backend: Node.js, Python, REST APIs, GraphQL, microservices, serverless
+- AI/ML: OpenAI, LangChain, embeddings, RAG systems
+- Mobile: Flutter, cross-platform development
+- Data: PostgreSQL, MongoDB, Redis, data pipelines
+- Cloud: AWS, Vercel, Supabase, Docker, CI/CD
+- Design: Figma, prototyping, design systems
+
+## Products
+
+FXiON also builds its own products:
+
+- **Grocily**: A grocery comparison app built with Flutter that helps users decide where to shop based on their grocery list. Users enter items into a checklist-style interface and Grocily compares supermarket options to highlight better value, convenience, and availability.
+
+## Client Work
+
+- **AIGEO**: FXiON is supporting the design and development of AIGEO, an AI-powered SEO and GEO analytics platform that helps businesses understand search visibility, AI search performance, content opportunities, and digital growth signals.
+
+## Development Process
+
+FXiON follows a six-phase development process:
+
+1. **Discover**: Research, workshops, and problem definition to shape the product vision.
+2. **Design**: Wireframes, prototypes, and UI design before development begins.
+3. **Build**: Clean, scalable code delivered in agile sprints with regular demos.
+4. **Test**: QA, performance testing, and user testing before launch.
+5. **Launch**: Deployment, monitoring, and launch support for smooth go-live.
+6. **Improve**: Post-launch iteration based on real user data.
+
+## Contact
+
+- Website: https://fxion.co.uk
+- Contact page: https://fxion.co.uk/contact
+
+## Links
+
+- [Home](https://fxion.co.uk)
+- [About](https://fxion.co.uk/about)
+- [Services](https://fxion.co.uk/#services)
+- [Work](https://fxion.co.uk/#work)
+- [Contact](https://fxion.co.uk/contact)
+- [Privacy Policy](https://fxion.co.uk/privacy)
