@@ -1,10 +1,10 @@
 # FXiON LTD
 
-> FXiON is a UK-based software development company that helps startups and businesses design, build, and launch digital products including web apps, mobile apps, AI tools, and custom software.
+> FXiON is a London-based software development company that helps startups and businesses design, build, and launch digital products including web apps, mobile apps, AI tools, and custom software.
 
 ## Company Overview
 
-FXiON LTD is a software development company registered and operating in the United Kingdom. The company specialises in building intelligent digital products for ambitious businesses, with a focus on startups, founders, and growing companies. FXiON offers end-to-end product development services covering design, engineering, and launch support.
+FXiON LTD is a software development company registered and operating in London, United Kingdom. The company is based at 124 City Road, London, EC1V 2NX. FXiON specialises in building intelligent digital products for ambitious businesses, with a focus on startups, founders, and growing companies. FXiON offers end-to-end product development services covering design, engineering, and launch support.
 
 ## Services
 
@@ -50,8 +50,10 @@ FXiON follows a six-phase development process:
 
 ## Contact
 
+- Address: FXION LTD, 124 City Road, London, EC1V 2NX, United Kingdom
 - Website: https://fxion.co.uk
 - Contact page: https://fxion.co.uk/contact
+- LinkedIn: https://www.linkedin.com/company/121404183/
 
 ## Links
 
