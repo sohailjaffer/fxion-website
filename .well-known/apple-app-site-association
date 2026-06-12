@@ -4,8 +4,8 @@
       {
         "appIDs": ["7G2K3C2674.com.fxion.grocilyapp"],
         "components": [
-          { "/": "/auth/callback", "comment": "Grocily email confirmation" },
-          { "/": "/auth/callback/*", "comment": "Grocily email confirmation" }
+          { "/": "/grocily/auth/callback", "comment": "Grocily email confirmation" },
+          { "/": "/grocily/auth/callback/*", "comment": "Grocily email confirmation" }
         ]
       }
     ]
