@@ -1,0 +1,6 @@
+# Serve the Apple App Site Association file as JSON (Universal Links for the
+# Grocily iOS app). Must be HTTPS, correct content-type, and no redirects.
+[[headers]]
+  for = "/.well-known/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
